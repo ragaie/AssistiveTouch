@@ -12,7 +12,7 @@ import UIKit
 
 
 
-open class AssistiveTouch: NSObject {
+public class AssistiveTouch: NSObject {
     
    private var myController : AssistiveController!
    private var touchButton : UIButton!
@@ -38,7 +38,7 @@ open class AssistiveTouch: NSObject {
 
     public var delgate : AssistiveTouchDelegate!
     
-    override init(){
+  public  override init(){
     
     
         super.init()
@@ -55,7 +55,7 @@ open class AssistiveTouch: NSObject {
     }
    
    
-    func setDataSource(homeController : UINavigationController , icons : [IconObject]){
+   public func setDataSource(homeController : UINavigationController , icons : [IconObject]){
          if homeController != nil  && icons.count > 0 {
                 validData = true
             myController.homeViewController = homeController

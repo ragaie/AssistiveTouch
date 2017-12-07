@@ -15,7 +15,7 @@ public struct IconObject {
     
     var image : UIImage?
     
-    init(iconImage : UIImage,iconTitle : String) {
+    public init(iconImage : UIImage,iconTitle : String) {
         
         title = iconTitle
         image = iconImage

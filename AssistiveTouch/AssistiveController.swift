@@ -128,7 +128,7 @@ class AssistiveController: NSObject {
                 label.textColor = UIColor.white
                 label.adjustsFontSizeToFitWidth = true
             if #available(iOS 8.2, *) {
-                label.font = UIFont.systemFont(ofSize: 13, weight: 1)
+                label.font = UIFont.systemFont(ofSize: 13, weight: UIFontWeight.init(1))
             } else {
                 // Fallback on earlier versions
             }
@@ -326,7 +326,7 @@ class AssistiveController: NSObject {
     
     
     
-    func backToFirstView(_ sender : UIButton){
+    @objc func backToFirstView(_ sender : UIButton){
     
         
         
