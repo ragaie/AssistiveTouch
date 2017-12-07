@@ -110,4 +110,4 @@ and ther some modify to change deafult values
 - [MIT License](https://github.com/ragaie/AssistiveTouch/blob/master/LICENSE)
 
 ## You can find me in linked in 
--[Ragaie alfy](www.linkedin.com/in/ragaie-alfy)
+- [Ragaie alfy](www.linkedin.com/in/ragaie-alfy)
