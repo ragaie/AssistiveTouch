@@ -48,7 +48,7 @@ class ViewController: UIViewController ,AssistiveTouchDelegate{
 add method for delegate to listen to button click
 ```
    func assistiveTouch(_ assistiveTouch: AssistiveTouch, didClikedButton button: UIButton, atIndex index: Int) {
-                touchId.showFrontViewController(<viewController name >: firstView, animate: true)
+                touchId.showFrontViewController(viewController: <viewcontroller  name >, animate: true)
 
         print(index)
         
@@ -57,7 +57,7 @@ add method for delegate to listen to button click
 if you show different view controller when click in button you need to use 
 ```
 
-        touchId.showFrontViewController(<viewController name >: firstView, animate: true)
+        touchId.showFrontViewController(viewController : <viewcontroller  name >, animate: true)
 
 ```
 
