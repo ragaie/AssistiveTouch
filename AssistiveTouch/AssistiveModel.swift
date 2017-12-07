@@ -11,7 +11,7 @@ import UIKit
 class AssistiveModel: NSObject {
 
     var firstViewbuttons : [UIButton]! = []
-    
+    //print hello
     var firstViewLabels : [UILabel]! = []
     
     
