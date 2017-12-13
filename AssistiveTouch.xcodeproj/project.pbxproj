@@ -25,6 +25,8 @@
 		814D0B6B1F8A1D76007FB985 /* AssistiveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistiveModel.swift; sourceTree = "<group>"; };
 		814D0B6D1F8A5079007FB985 /* IconObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconObject.swift; sourceTree = "<group>"; };
 		814D0B6F1F8A5342007FB985 /* AssistiveTouchDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssistiveTouchDelegate.swift; sourceTree = "<group>"; };
+		8170E6BC1FE1877900D1CF78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8170E6BD1FE1877D00D1CF78 /* AssistiveTouch-Chtar.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AssistiveTouch-Chtar.podspec"; sourceTree = "<group>"; };
 		819372A21F8235B8001C160B /* AssistiveTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssistiveTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819372A51F8235B8001C160B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AssistiveTouch/AppDelegate.swift; sourceTree = "<group>"; };
 		819372A71F8235B8001C160B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = AssistiveTouch/ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,8 @@
 		817BDB501F8BADF900A77F27 /* screen shot */ = {
 			isa = PBXGroup;
 			children = (
+				8170E6BD1FE1877D00D1CF78 /* AssistiveTouch-Chtar.podspec */,
+				8170E6BC1FE1877900D1CF78 /* README.md */,
 				81CAE3891FD97C1500BA7B6C /* Assistive.mov */,
 				81CAE3851FD96F6A00BA7B6C /* Screen Shot 2017-12-07 at 2.09.11 PM.png */,
 				81CAE3871FD96F6A00BA7B6C /* Screen Shot 2017-12-07 at 2.09.31 PM.png */,
